@@ -19,12 +19,14 @@ import { SigninComponent } from './auth/signin/signin.component';
 
 
 import { AuthService } from './services/auth.sevice';
+import { ForgotpasswordComponent } from './account/forgotpassword/forgotpassword.component';
 
 
 const appRouter: Routes = [
   { path: 'signin', component: SigninComponent },
   { path: 'home', component: HomeComponent },
-  { path: '', component: SigninComponent }
+  { path: '', component: SigninComponent },
+  { path: 'forgot-password', component: ForgotpasswordComponent }
 ];
 
 @NgModule({
@@ -33,7 +35,8 @@ const appRouter: Routes = [
     HomeComponent,
     HeaderComponent,
     LeftsidebarComponent,
-    SigninComponent
+    SigninComponent,
+    ForgotpasswordComponent
 
   ],
   imports: [

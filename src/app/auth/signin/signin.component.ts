@@ -3,7 +3,6 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { LocalForageService } from 'ng2-localforage';
 import { AuthService } from '../../services/auth.sevice';
 
-import { SignIn } from '../../models/signin.model';
 
 @Injectable()
 
