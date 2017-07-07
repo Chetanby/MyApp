@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
 
 body{
-    background-color: #F1F1F2;
+    background-color: #F1F1F2 !important;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
@@ -54,4 +54,9 @@ body{
 
 .error{
     color: orangered;
+}
+
+
+h2{
+    font-size: 2rem !important;
 }

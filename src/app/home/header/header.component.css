@@ -4,6 +4,8 @@
   padding: 5px 5px;
   margin-bottom: 0px;
   z-index: 9999;
+  position: fixed;
+  width:100%;
 }
 
 .navbar-inverse {
